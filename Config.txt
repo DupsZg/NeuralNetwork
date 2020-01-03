@@ -1,0 +1,72 @@
+CreateTraining : width : 20, height : 20 , type :RGB
+Input: image:./RezaneSlike/TreningSet1/izrezanaSlika0.jpg, identity:alien
+Input: image:./RezaneSlike/TreningSet1/izrezanaSlika1.jpg, identity:angry
+Input: image:./RezaneSlike/TreningSet1/izrezanaSlika2.jpg, identity:man
+Input: image:./RezaneSlike/TreningSet1/izrezanaSlika3.jpg, identity:NERD
+Input: image:./RezaneSlike/TreningSet1/izrezanaSlika4.jpg, identity:Poo
+Input: image:./RezaneSlike/TreningSet1/izrezanaSlika5.jpg, identity:Ring
+Input: image:./RezaneSlike/TreningSet1/izrezanaSlika6.jpg, identity:thumbs
+Input: image:./RezaneSlike/TreningSet2/izrezanaSlika0.jpg, identity:alien
+Input: image:./RezaneSlike/TreningSet2/izrezanaSlika1.jpg, identity:angry
+Input: image:./RezaneSlike/TreningSet2/izrezanaSlika2.jpg, identity:man
+Input: image:./RezaneSlike/TreningSet2/izrezanaSlika3.jpg, identity:NERD
+Input: image:./RezaneSlike/TreningSet2/izrezanaSlika4.jpg, identity:Poo
+Input: image:./RezaneSlike/TreningSet2/izrezanaSlika5.jpg, identity:Ring
+Input: image:./RezaneSlike/TreningSet2/izrezanaSlika6.jpg, identity:thumbs
+Input: image:./RezaneSlike/TreningSet3/izrezanaSlika0.jpg, identity:alien
+Input: image:./RezaneSlike/TreningSet3/izrezanaSlika1.jpg, identity:angry
+Input: image:./RezaneSlike/TreningSet3/izrezanaSlika2.jpg, identity:man
+Input: image:./RezaneSlike/TreningSet3/izrezanaSlika3.jpg, identity:NERD
+Input: image:./RezaneSlike/TreningSet3/izrezanaSlika4.jpg, identity:Poo
+Input: image:./RezaneSlike/TreningSet3/izrezanaSlika5.jpg, identity:Ring
+Input: image:./RezaneSlike/TreningSet3/izrezanaSlika6.jpg, identity:thumbs
+Input: image:./RezaneSlike/TreningSet4/izrezanaSlika0.jpg, identity:alien
+Input: image:./RezaneSlike/TreningSet4/izrezanaSlika1.jpg, identity:angry
+Input: image:./RezaneSlike/TreningSet4/izrezanaSlika2.jpg, identity:man
+Input: image:./RezaneSlike/TreningSet4/izrezanaSlika3.jpg, identity:NERD
+Input: image:./RezaneSlike/TreningSet4/izrezanaSlika4.jpg, identity:Poo
+Input: image:./RezaneSlike/TreningSet4/izrezanaSlika5.jpg, identity:Ring
+Input: image:./RezaneSlike/TreningSet4/izrezanaSlika6.jpg, identity:thumbs
+Input: image:./RezaneSlike/TreningSet5/izrezanaSlika0.jpg, identity:alien
+Input: image:./RezaneSlike/TreningSet5/izrezanaSlika1.jpg, identity:angry
+Input: image:./RezaneSlike/TreningSet5/izrezanaSlika2.jpg, identity:man
+Input: image:./RezaneSlike/TreningSet5/izrezanaSlika3.jpg, identity:NERD
+Input: image:./RezaneSlike/TreningSet5/izrezanaSlika4.jpg, identity:Poo
+Input: image:./RezaneSlike/TreningSet5/izrezanaSlika5.jpg, identity:Ring
+Input: image:./RezaneSlike/TreningSet5/izrezanaSlika6.jpg, identity:thumbs
+Input: image:./RezaneSlike/TreningSet6/izrezanaSlika0.jpg, identity:alien
+Input: image:./RezaneSlike/TreningSet6/izrezanaSlika1.jpg, identity:angry
+Input: image:./RezaneSlike/TreningSet6/izrezanaSlika2.jpg, identity:man
+Input: image:./RezaneSlike/TreningSet6/izrezanaSlika3.jpg, identity:NERD
+Input: image:./RezaneSlike/TreningSet6/izrezanaSlika4.jpg, identity:Poo
+Input: image:./RezaneSlike/TreningSet6/izrezanaSlika5.jpg, identity:Ring
+Input: image:./RezaneSlike/TreningSet6/izrezanaSlika6.jpg, identity:thumbs
+Input: image:./RezaneSlike/TreningSet7/izrezanaSlika0.jpg, identity:alien
+Input: image:./RezaneSlike/TreningSet7/izrezanaSlika1.jpg, identity:angry
+Input: image:./RezaneSlike/TreningSet7/izrezanaSlika2.jpg, identity:man
+Input: image:./RezaneSlike/TreningSet7/izrezanaSlika3.jpg, identity:NERD
+Input: image:./RezaneSlike/TreningSet7/izrezanaSlika4.jpg, identity:Poo
+Input: image:./RezaneSlike/TreningSet7/izrezanaSlika5.jpg, identity:Ring
+Input: image:./RezaneSlike/TreningSet7/izrezanaSlika6.jpg, identity:thumbs
+Input: image:./RezaneSlike/TreningSet8/izrezanaSlika0.jpg, identity:alien
+Input: image:./RezaneSlike/TreningSet8/izrezanaSlika1.jpg, identity:angry
+Input: image:./RezaneSlike/TreningSet8/izrezanaSlika2.jpg, identity:man
+Input: image:./RezaneSlike/TreningSet8/izrezanaSlika3.jpg, identity:NERD
+Input: image:./RezaneSlike/TreningSet8/izrezanaSlika4.jpg, identity:Poo
+Input: image:./RezaneSlike/TreningSet8/izrezanaSlika5.jpg, identity:Ring
+Input: image:./RezaneSlike/TreningSet8/izrezanaSlika6.jpg, identity:thumbs
+Network: hidden1:50, hidden2:0,
+Train: Mode:GUI, Minutes:1, StrategyError:0.1,StrategyCycles:150
+Whatis: image:./RezaneSlike/TreningSet5/izrezanaSlika4.jpg
+Whatis: image:./RezaneSlike/TreningSet2/izrezanaSlika5.jpg
+Whatis: image:./RezaneSlike/TreningSet4/izrezanaSlika2.jpg
+Whatis: image:./RezaneSlike/TreningSet5/izrezanaSlika1.jpg
+Whatis: image:./RezaneSlike/TreningSet8/izrezanaSlika0.jpg
+Whatis: image:./RezaneSlike/TreningSet7/izrezanaSlika3.jpg
+Whatis: image:./RezaneSlike/TreningSet1/izrezanaSlika6.jpg
+Whatis: image:./TestiranjeSlike/slika1.jpg
+Whatis: image:./TestiranjeSlike/slika2.jpg
+Whatis: image:./TestiranjeSlike/slika3.jpg
+Whatis: image:./TestiranjeSlike/slika4.jpg
+Whatis: image:./TestiranjeSlike/slika5.jpg
+Whatis: image:./TestiranjeSlike/slika6.jpg
